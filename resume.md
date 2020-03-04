@@ -20,12 +20,10 @@ Mostly specializing in automated testing infrastructure and frameworks.
 
 ## Contact Info
 
-|          |                                                       |
-| -------- | ------------------------------------------------------|
-| Phone    |   628-363-0108                                        |
-| Email    |   jspong@gmail.com                                    |
-| Twitter  |   [@thenewjohnald](https://twitter.com/thenewjohnald) |
-| Github   |   [github/jspong](https://github.com/jspong)          |
+| Phone       628-363-0108
+| Email       jspong@gmail.com
+| Twitter     [@thenewjohnald](https://twitter.com/thenewjohnald)
+| Github      [github/jspong](https://github.com/jspong)
 
 ## Currently
 

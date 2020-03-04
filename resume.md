@@ -28,7 +28,7 @@ Mostly specializing in automated testing infrastructure and frameworks.
 ## Currently
 
 `August 2019 - present`
-Working as a Senior Software Engineer at
+Working as a Software Engineer at
 [Confluent, Inc.,](https://confluent.io) on the
 Quality Engineering Team.
 

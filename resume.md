@@ -3,19 +3,29 @@ layout: cv
 title: John Spong's Resume
 ---
 
+<!---
+Using the wonderful layout from https://github.com/elipapa/markdown-cv/
+-->
+
 # John Spong
 
-Senior Software Engineer, currently not looking for work.
+Senior Software Engineer
+
+Not currently looking for work.
 
 Designing and implementing complex systems using simple pieces,
 and mentoring junior developers in doing the same.
 
+Mostly specializing in automated testing infrastructure and frameworks.
+
 ## Contact Info
 
-* Phone: 628-363-0108
-* Email: jspong@gmail.com
-* Twitter: [@thenewjohnald](https://twitter.com/thenewjohnald)
-* Github: [github/jspong](https://github.com/jspong)
+|          |                                                       |
+| -------- | ------------------------------------------------------|
+| Phone    |   628-363-0108                                        |
+| Email    |   jspong@gmail.com                                    |
+| Twitter  |   [@thenewjohnald](https://twitter.com/thenewjohnald) |
+| Github   |   [github/jspong](https://github.com/jspong)          |
 
 ## Currently
 
@@ -26,7 +36,7 @@ Quality Engineering Team.
 
 ## Education
 
-`2003 - 2007`
+`September 2003 - May 2007`
 __University of Illinois, Urbana-Champaign__
 Bachelor of Science, Computer Science
 

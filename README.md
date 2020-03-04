@@ -1,2 +1,2 @@
 # jspong.github.io
-* [resume](resume.md)
+* [resume](resume)

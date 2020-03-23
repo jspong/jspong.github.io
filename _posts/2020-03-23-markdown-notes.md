@@ -30,7 +30,7 @@ function notes() {
 
 This was great, but the more notes I took the more notes I wanted to read. Yesterday's notes meant knowing where the notes were, and opening that up by directory. Looking up the date for three days ago was sufficient hassle that I wanted to automate it away.
 
-I knew there had to be a conveniently clever fuzzy date library for python, and I found one in [dateparser](https://dateparser.readthedocs.io/en/latest/). With the following changes, I could say `notes yesterday`, or `notes 4 days ago`:
+I knew there had to be a conveniently clever fuzzy date library for python, and I found one in [dateparser](https://dateparser.readthedocs.io/en/latest/). With the following changes, I could say `notes yesterday`, or `notes '4 days ago'`:
 
 ```bash
 if [[ -n "$1" ]]                                                                       # Did we pass an argument to notes?

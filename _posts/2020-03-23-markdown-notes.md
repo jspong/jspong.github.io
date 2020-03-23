@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Using Git and Markdown to Take Daily Notes for Self-Esteem and Profit.
+tags: [productivity,timetracking,git]
+---
 # Using Git and Markdown to Take Daily Notes for Self-Esteem and Profit.
 
 I've been struggling for a long time with staying focused: time tracking, note-taking, goal setting, finalizing tasks were all frequent stumbling blocks between myself and actually delivering results.

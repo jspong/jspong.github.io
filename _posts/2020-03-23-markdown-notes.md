@@ -1,6 +1,6 @@
 ---
+title: "Using Git and Markdown to Take Daily Notes for Self-Esteem and Profit."
 layout: post
-title: "Using Git and Markdown to Take Daily Notes for Self-Esteem and Profit.
 tags: [productivity,timetracking,git]
 ---
 # Using Git and Markdown to Take Daily Notes for Self-Esteem and Profit.

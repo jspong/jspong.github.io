@@ -11,8 +11,6 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 Senior Software Engineer
 
-Not currently looking for work.
-
 Designing and implementing complex systems using simple pieces,
 and mentoring junior developers in doing the same.
 

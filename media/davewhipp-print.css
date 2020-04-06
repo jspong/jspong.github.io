@@ -78,9 +78,10 @@ code {
 }
 
 p code {
-	position: absolute;
+    display: block;
+	position: relative;
 	text-align: right;
-	right: -20%;
+    clear: right;
 }
 
 
@@ -92,12 +93,11 @@ ul {
 	/*margin-top: -0.5em;*/
 }
 
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
+li:before {
+	content: "‣";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/

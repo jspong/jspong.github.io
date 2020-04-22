@@ -12,9 +12,7 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 Senior Software Engineer
 
 Designing and implementing complex systems using simple pieces,
-and mentoring junior developers in doing the same.
-
-Mostly specializing in automated testing infrastructure and frameworks.
+and mentoring junior developers to do the same.
 
 ## Contact Info
 
@@ -26,8 +24,12 @@ Mostly specializing in automated testing infrastructure and frameworks.
 
 `August 2019 - present`
 Working as a Software Engineer at
-[Confluent, Inc.,](https://confluent.io) on the
-Quality Engineering Team.
+[Confluent, Inc.,](https://confluent.io) on the Quality Engineering Team.
+
+* Modernized test infrastructure to more accurately represent production
+    environments using AWS and docker.
+* Reduced system test execution time by 30% by running tests in parallel rather
+    than sequentially.
 
 ## Education
 
@@ -47,17 +49,16 @@ __Youtube, San Bruno, CA__
 
 * Combined static analysis tools with dynamic monitoring to create and
   analyze graph of live YouTube control flow within and between services.
-* Facilitated cross-functional efforts to perform large code cleanups,
-  and designed service to delegate and track individual tasks to domain
-  experts.
-* Created, maintained, and generated reports for code health metrics,
-  including dead code, team ownership, and presubmit test performance.
-* Refactored authentication workflow to unify multiple credentials into
-  a single abstraction.
-* Worked width third-party vendor to research feasibility of using static
-  analysis on python to perform type inference an bug detection.
-* Collaborated with backend, middleware, and frontend developers to
-  streamline automated testing and simplify building running services
+* Led cross-functional efforts to perform large code cleanups, and
+* designed service to delegate and track individual tasks to domain experts.
+* Created system for code health metrics analysis, including dead code,
+  team ownership, and presubmit test performance.
+* Refactored YouTube authentication workflow to unify multiple credentials
+  into a single abstraction.
+* Researched feasibility of using static analysis on python to perform type
+  inference an bug detection, in collaboration with language teams and
+  third-party vendors.
+* Streamline automated testing and simplify building running services
   and mobile (iOS and Android) apps.
 * Interviewed candidates and mentored new engineers on the team.
 
@@ -67,16 +68,18 @@ __Clustrix, San Francisco, CA__
 
 * Wrote and automated test plans for XML Functions, SQL Triggers, and
   distributed disaster recovery and consistency.
-* Led team in an effort to modernize the test automation codebase through
-  refactoring, unit tests, book discussions, and code reviews.
+* Streamlined team processes by modernizing the test automation codebase,
+  by refactoring, unit tests, educational initiatives, and code reviews.
+* Increased team productivity by 17% by removing the need for a full-time
+  revolving test reviewer position and replacing it with individual ownership
+  and a new test reporting system.
 
 `August 2011 - December 2011`
 __Vast.com, San Francisco, CA__
 *Test Automation Consultant*
 
-* Designed object-oriented refactor of client-side Javascript code using
-  RequireJs and dependency injection, guiding two developers through the
-  process.
+* Guided team of engineers through object-oriented refactor of client- and 
+  server-side Javascript code using RequireJs and dependency injection.
 
 `August 2010 - January 2012`
 __Eureka Restaurant and Lounge, San Francisco, CA__

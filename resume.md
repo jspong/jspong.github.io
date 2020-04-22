@@ -34,11 +34,15 @@ Working as a Software Engineer at
 ## Education
 
 `September 2003 - May 2007`
+
 __University of Illinois, Urbana-Champaign__
+
 Bachelor of Science, Computer Science
 
 `March 2012 - November 2012`
+
 __Culinary Institute of America, St Helena, CA__
+
 Associates of Arts (Incomplete)
 
 ## Past Experience

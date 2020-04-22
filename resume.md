@@ -22,9 +22,10 @@ and mentoring junior developers to do the same.
 
 ## Currently
 
+__Confluent, Inc.__
+
+*Software Engineer*
 `August 2019 - present`
-Working as a Software Engineer at
-[Confluent, Inc.,](https://confluent.io) on the Quality Engineering Team.
 
 * Modernized test infrastructure to more accurately represent production
     environments using AWS and docker.

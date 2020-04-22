@@ -49,6 +49,7 @@ Associates of Arts (Incomplete)
 
 `August 2014 - July 2019`
 __Youtube, San Bruno, CA__
+
 *Software Engineer*
 
 * Combined static analysis tools with dynamic monitoring to create and
@@ -68,6 +69,7 @@ __Youtube, San Bruno, CA__
 
 `January 2013 - July 2014`
 __Clustrix, San Francisco, CA__
+
 *Software Engineer in Test*
 
 * Wrote and automated test plans for XML Functions, SQL Triggers, and
@@ -80,6 +82,7 @@ __Clustrix, San Francisco, CA__
 
 `August 2011 - December 2011`
 __Vast.com, San Francisco, CA__
+
 *Test Automation Consultant*
 
 * Guided team of engineers through object-oriented refactor of client- and 
@@ -87,6 +90,7 @@ __Vast.com, San Francisco, CA__
 
 `August 2010 - January 2012`
 __Eureka Restaurant and Lounge, San Francisco, CA__
+
 *Line Cook*
 
 * Assisted in daily prep of ingredients for dinner service.
@@ -95,6 +99,7 @@ __Eureka Restaurant and Lounge, San Francisco, CA__
 
 `January 2010 - August 2010`
 __Google, Inc., Mountain View, CA__
+
 *Software Engineer in Test*
 
 * Wrote, maintained, and executed integration tests for the Android
@@ -106,6 +111,7 @@ __Google, Inc., Mountain View, CA__
 
 `August 2007 - December 2009`
 __Riverbed Technology, San Francisco, CA__
+
 *Quality Assurance Engineer*
 
 * Led a team of six engineers in engineering efforts, coordinating

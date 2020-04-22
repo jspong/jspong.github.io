@@ -78,10 +78,9 @@ code {
 }
 
 p code {
-    display: block;
-	position: relative;
+	position: absolute;
 	text-align: right;
-    clear: right;
+    right: -20%;
 }
 
 

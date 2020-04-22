@@ -33,24 +33,22 @@ Working as a Software Engineer at
 
 ## Education
 
-`September 2003 - May 2007`
-
 __University of Illinois, Urbana-Champaign__
 
 Bachelor of Science, Computer Science
-
-`March 2012 - November 2012`
+`September 2003 - May 2007`
 
 __Culinary Institute of America, St Helena, CA__
 
 Associates of Arts (Incomplete)
+`March 2012 - November 2012`
 
 ## Past Experience
 
-`August 2014 - July 2019`
 __Youtube, San Bruno, CA__
 
 *Software Engineer*
+`August 2014 - July 2019`
 
 * Combined static analysis tools with dynamic monitoring to create and
   analyze graph of live YouTube control flow within and between services.
@@ -67,10 +65,10 @@ __Youtube, San Bruno, CA__
   and mobile (iOS and Android) apps.
 * Interviewed candidates and mentored new engineers on the team.
 
-`January 2013 - July 2014`
 __Clustrix, San Francisco, CA__
 
 *Software Engineer in Test*
+`January 2013 - July 2014`
 
 * Wrote and automated test plans for XML Functions, SQL Triggers, and
   distributed disaster recovery and consistency.
@@ -80,27 +78,27 @@ __Clustrix, San Francisco, CA__
   revolving test reviewer position and replacing it with individual ownership
   and a new test reporting system.
 
-`August 2011 - December 2011`
 __Vast.com, San Francisco, CA__
 
 *Test Automation Consultant*
+`August 2011 - December 2011`
 
 * Guided team of engineers through object-oriented refactor of client- and 
   server-side Javascript code using RequireJs and dependency injection.
 
-`August 2010 - January 2012`
 __Eureka Restaurant and Lounge, San Francisco, CA__
 
 *Line Cook*
+`August 2010 - January 2012`
 
 * Assisted in daily prep of ingredients for dinner service.
 * Managed _Garde Manger_ and _Sautee_ Stations.
 * Interviewed and trained new cooks in food preparation and service.
 
-`January 2010 - August 2010`
 __Google, Inc., Mountain View, CA__
 
 *Software Engineer in Test*
+`January 2010 - August 2010`
 
 * Wrote, maintained, and executed integration tests for the Android
   Marketplace using Java and Selenium
@@ -109,10 +107,10 @@ __Google, Inc., Mountain View, CA__
   scalable tests.
 * Collaborated with developers to encourage teamwork on test development.
 
-`August 2007 - December 2009`
 __Riverbed Technology, San Francisco, CA__
 
 *Quality Assurance Engineer*
+`August 2007 - December 2009`
 
 * Led a team of six engineers in engineering efforts, coordinating
   individual contributions into a cohesive and unified test system.

@@ -31,6 +31,9 @@ __Confluent, Inc.__
     environments using AWS and docker.
 * Reduced system test execution time by 30% by running tests in parallel rather
     than sequentially.
+* Updated automated management of third-party utilities, including JDK, MySQL,
+    and Apache Hadoop ecosystem to more reliably integrate all deployment
+    scenarios.
 
 ## Education
 

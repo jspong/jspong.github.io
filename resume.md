@@ -78,6 +78,9 @@ __Clustrix, San Francisco, CA__
 * Increased team productivity by 17% by removing the need for a full-time
   revolving test reviewer position and replacing it with individual ownership
   and a new test reporting system.
+* Found and diagnosed errors in distributed database, using SQL,
+    developer interrupts, and external events to reproduce issues with planner,
+    replay queues, and Paxos-driven node management
 
 __Vast.com, San Francisco, CA__
 
@@ -120,5 +123,7 @@ __Riverbed Technology, San Francisco, CA__
 * Wrote bridging libraries to tie together `Perl`, `Python`, and `C#`
   frameworks to allow for seamless, scalable, and reusable cross-product
   tests.
+* Wrote and optimized test result analytic tools using MySQL database, including
+    data-modeling, index optimization, and complex SQL queries.
 
 

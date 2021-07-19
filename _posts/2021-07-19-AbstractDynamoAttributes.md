@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Storing abstract attributes in DynamoDB"
+title: "Storing abstract and generic attributes in DynamoDB"
 ---
 
 # Intro
@@ -12,7 +12,7 @@ Storing [normalized data](https://en.wikipedia.org/wiki/Database_normalization) 
 Thankfully, this unstructured nature - when used properly - can have its benefits. If you have predictable query patterns, the ability to store whole objects in your database can
 simplify development greatly, and the distributed web-scale means your application can easily scale from a dozen users to millions without having to worry about sharding.
 
-Unfortunately, because DynamoDB ultimately has to serialize its data into strings, maps, lists, or numeric primitives, Dynamo can easily be confused by object-oriented programming models. In particular, lists of custom types (particular inheritance hierarchies) introduce a number of roadblocks to DynamoDB's naive JSON-processing which can be easily overcome with the right patterns.
+Unfortunately, because DynamoDB ultimately has to serialize its data into strings, maps, lists, or numeric primitives, Dynamo can easily be confused by object-oriented programming models. In particular, lists of custom types (particular inheritance hierarchies) introduce a number of roadblocks to DynamoDB's naive JSON-processing which can be easily overcome with the right patterns.  
 
 # A nonsense use case: the `Foo` manager.
 
@@ -170,7 +170,7 @@ public class QuxMapConverter implements DynamoDBTypeConverter<String, Map<String
 
 ```
 
-There are five differences in these classes:
+There are three differences in these classes:
 
 1. The name of the class.
 2. The second type variable (which is the same as the argument type in `convert` and the return type for `unconvert`).
@@ -236,4 +236,21 @@ public class Foo {
 
 ```
 
-Now the `DynamoDBMapper` class will know how to properly serialize and deserialize your `barList`! Congratulations.
+Now the `DynamoDBMapper` class will know how to properly serialize and deserialize your `barList`!
+
+# Phase 5: Every Foo has a subclass of Qux
+
+Jackson also needs help deserializing class hierarchies, because needs information about which subtype was serialized. To do this, you can tell it to store a `@Class` attribute in the object, and annotate the base class with all the subclass information. This inversion of the hierarchy is annoying, but necessary, and also has the side-effect that you cannot subclass the type outside its defining package.
+
+```java
+
+@JsonIgnoreProperties(ignoreUnknown=true)
+@JsonTypeInfo(use=JsonTypeInfo.Id.CLASS)
+@JsonSubTypes(
+	@JsonSubTypes.Type(value=Quy.class, name="Quy"),
+	@JsonSubTypes.Type(value=Quz.class, name="Quz"))
+public class Qux {
+}
+```
+
+Now you can annotate your `Qux` member with `@DynamoDbTypeConvertedJson` and Jackson will be able to store and infer the subtype information.

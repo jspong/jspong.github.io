@@ -14,10 +14,10 @@ simplify development greatly, and the distributed web-scale means your applicati
 
 Unfortunately, because DynamoDB ultimately has to serialize its data into strings, maps, lists, or numeric primitives, Dynamo can easily be confused by object-oriented programming models. In particular, lists of custom types (particular inheritance hierarchies) introduce a number of roadblocks to DynamoDB's naive JSON-processing which can be easily overcome with the right patterns.  
 
-# A nonsense use case: the `Foo` manager.
+# A Nonsense Use case: the `Foo` Manager.
 
-To keep things general, and to find the delicate balance between honoring [NDAs](https://en.wikipedia.org/wiki/Non-disclosure_agreement) and that coming up with a better alternative to
-"a Dog is an Aminal, but so is a Cat!" OOP example, I will not be giving a "real-world" use case. We will deal with [Metasyntactic variables](https://en.wikipedia.org/wiki/Metasyntactic_variable) like `Foo`, `Bar` and, `Qux`. 
+To keep things general, coming up with a better alternative to "a Dog is an Aminal, but so is a Cat!" OOP example, I will not be giving a "real-world" use case.
+We will deal with [Metasyntactic variables](https://en.wikipedia.org/wiki/Metasyntactic_variable) like `Foo`, `Bar`, and `Qux`. 
 
 ## Phase 1: An Object with Primitive Attributes.
 
@@ -40,7 +40,7 @@ public class Foo {
 
 ## Phase 2: Every Foo Has a Bar
 
-Sometimes it's not that simple, and you want to have structured attributes that are modeled with custom object types. DynamoDB can store maps, but we don't want to have to write our own code converting back-and-forth between Json maps and our Java objects. Thankfully, the [Jackson](https://github.com/FasterXML/jackson) library handles serializing and deserializing objects to/from Json strings, and Dynamo has the [`@DynamoDBTypeConvertedJson`](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBTypeConvertedJson.html) attribute to use Jackson to serialize your objects to JSON and then deserialize them on read:
+Sometimes it's not that simple and you want to have structured attributes that are modeled with custom object types. DynamoDB can store maps, but we don't want to have to write our own code converting back-and-forth between Json maps and our Java objects. Thankfully, the [Jackson](https://github.com/FasterXML/jackson) library handles serializing and deserializing objects to/from Json strings and Dynamo has the [`@DynamoDBTypeConvertedJson`](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBTypeConvertedJson.html) attribute to use Jackson to serialize your objects to JSON and then deserialize them on read:
 
 ```java
 
@@ -78,7 +78,11 @@ So what happened?
 
 ### An Overview of Type Erasure
 
-Java Generics were introduced in J2SE 5.0, well after the initial `Object` collections were introduced. To avoid making breaking changes, the powers that be decided that the new generic collections should be compatible with the originals. To reach that end, the compiler "erases" the type so that the JVM sees them as `Object`s until they are cast to a variable. The benefit is that compile-time enforcement is still possible, but the drawback is that there is no way to use reflection to determine what type of `Object`s should be stored in the collection. When serializing, Jackson has the run-time information of the object, but when deserializing it only knows the structure, and defaults to `Map<String, Object>` unless explicitly told otherwise.
+Java Generics were introduced in J2SE 5.0, well after the initial `Object` collections were introduced.
+To avoid making breaking changes the powers that be decided that the new generic collections should be compatible with the originals.
+To reach that end the compiler "erases" the type so that the JVM sees them as `Object`s until they are cast to a variable.
+The benefit is that compile-time enforcement is still possible, but the drawback is that there is no way to use reflection to determine what type of `Object`s should be stored in the collection.
+When serializing Jackson has the run-time information of the object, but when deserializing it only knows the structure, and defaults to `Map<String, Object>` unless explicitly told otherwise.
 
 When you inherit a generic class or implement a generic interface, providing a type so that your new class is no longer generic, the JVM *does* need this information so that it can provide type-safe attributes and polymorphic compatibility with the generic:
 
@@ -99,15 +103,16 @@ public class StringGetter implements Provider<String> {
 1. They need to be able to be used anywhere `Provider<String>` can be used.
 2. They need to be able to be called explicitly like `String string = myStringProvider.get()`.
 
-To handle this, the JVM stores some metadata that Jackson exploits in its `TypeReference<T>` class. The details of how this class is implemented are interesting but not necessary for this document.
+To handle this the JVM stores some metadata that Jackson exploits in its `TypeReference<T>` class. The details of how this class is implemented are interesting but not necessary for this document.
 
 ## Phase 3 revisited: how to deserialize a list of custom objects?
 
-The `@DynamoDBTypeConvertedJson` annotation has a `targetType` argument where you can pass a `Class` that should be used instead of the default `Void`. Jackson uses this to know what type to deserialize to. Unfortunately, because of Type Erasure, `List<Bar>` does not have a class of its own; it's class is `List`. Barring the other documentation, Jackson will fill this list with `Map<String, Object>` instances when it parses the string.
+The `@DynamoDBTypeConvertedJson` annotation has a `targetType` argument where you can pass a `Class` that should be used instead of the default `Void`. Jackson uses this to know what type to deserialize to.
+Unfortunately, because of Type Erasure, `List<Bar>` does not have a class of its own. Instead it's class is `List`. Barring the other documentation Jackson will fill this list with `Map<String, Object>` instances when it parses the string.
 
 Thankfully, DynamoDB also allows you to provide a specific class that implements [`DynamoDBTypeConverter<S, T>`](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBTypeConverter.html) to the annotation. What we need is a converter that knows how to parse a `String` into a `List<Bar>`.
 
-Also, thankfully, this class is very simple to implement: we need to have a Jackson `ObjectMapper` and pass it `TypeReference<List<Bar>>` when it deserializes the string:
+Also, thankfully, this class is very simple to implement. We need to have a Jackson `ObjectMapper` and pass it `TypeReference<List<Bar>>` when it deserializes the string:
 
 ```java
 
@@ -129,7 +134,7 @@ public class BarListConverter implements DynamoDBTypeConverter<String, List<Bar>
 	
 ```
 
-Note that we instantiate a private `TypeReference<List<Bar>>` class here, because the JVM needs the metadata from the *inheritance*, not from the generic itself.
+Note that we instantiate a private `TypeReference<List<Bar>>` class here because the JVM needs the metadata from the *inheritance* not from the generic itself.
 
 Now we can simply annotate `Foo.barList`:
 
@@ -149,7 +154,7 @@ public class Foo {
 
 # Phase 4: Generalize the conversion process
 
-It stands to reason that if you're doing this for one type, you'll be doing it for many. While this is a small piece of code, it can be very helpful for many reasons to [not repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). If we look at another implementation, we can see some immediate generalizations:
+It stands to reason that if you're doing this for one type then you'll be doing it for many. While this is a small piece of code, it can be very helpful for many reasons to [not repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). If we look at another implementation, we can see some immediate generalizations:
 
 ```java
 
@@ -176,11 +181,11 @@ There are three differences in these classes:
 2. The second type variable (which is the same as the argument type in `convert` and the return type for `unconvert`).
 3. The `TypeReference` object passed to `objectMapper.readValue`.
 
-1 is unavoidable: you gotta name your classes.
+Number 1 is unavoidable: you gotta name your classes.
 
-2 means we need to keep one of the generic types unfilled. This means we need an abstract class to handle the rest.
+Number 2 means we need to keep one of the generic types unfilled. This means we need an abstract class to handle the rest.
 
-3 is unavoidable (well, probably doable with some *really* gross metaprogramming, but don't do that to yourself or your readers). This means we need an abstract method to get the `TypeReference`
+Number 3 is unavoidable (well, probably doable with some *really* gross metaprogramming, but don't do that to yourself or your readers). This means we need an abstract method to get the `TypeReference`
 
 ```java
 
@@ -204,7 +209,7 @@ public abstract class DynamoDBJacksonTypeConverter<T> implements DynamoDBTypeCon
 
 ```
 
-Then your implementations are simple subclasses that just need to provide the `TypeReference`. I like to store them as static child classes of the types themselves, and call them `ListConverter`, `MapConverter`, or whatever:
+Then your implementations are simple subclasses that just need to provide the `TypeReference`. I like to store them as static child classes of the types themselves and call them `ListConverter`, `MapConverter`, or whatever:
 
 ```java
 
@@ -240,7 +245,7 @@ Now the `DynamoDBMapper` class will know how to properly serialize and deseriali
 
 # Phase 5: Every Foo has a subclass of Qux
 
-Jackson also needs help deserializing class hierarchies, because needs information about which subtype was serialized. To do this, you can tell it to store a `@Class` attribute in the object, and annotate the base class with all the subclass information. This inversion of the hierarchy is annoying, but necessary, and also has the side-effect that you cannot subclass the type outside its defining package.
+Jackson also needs help deserializing class hierarchies because it needs information about which subtype was serialized. To do this, you can tell it to store a `@Class` attribute in the object, and annotate the base class with all the subclass information. This inversion of the hierarchy is annoying, but necessary, and also has the side-effect that you cannot subclass the type outside its defining package.
 
 ```java
 

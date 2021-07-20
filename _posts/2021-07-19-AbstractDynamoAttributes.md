@@ -91,7 +91,7 @@ When you inherit a generic class or implement a generic interface, providing a t
 public class StringGetter implements Provider<String> {
 
     @Override
-	public String get() {
+    public String get() {
 		return "some string";
 	}
 

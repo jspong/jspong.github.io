@@ -20,20 +20,24 @@ and mentoring junior developers to do the same.
 * Email:       jspong@gmail.com
 * Github:      [github/jspong](https://github.com/jspong)
 
-## Currently
+## Current Position
 
-__Confluent, Inc.__
+__Amazon.com, Inc.___
+`June 2020 - Present`
 
-*Software Engineer*
-`August 2019 - present`
+### Last Mile Cost Estimation
 
-* Modernized test infrastructure to more accurately represent production
-    environments using AWS and docker.
-* Reduced system test execution time by 30% by running tests in parallel rather
-    than sequentially.
-* Updated automated management of third-party utilities, including JDK, MySQL,
-    and Apache Hadoop ecosystem to more reliably integrate all deployment
-    scenarios.
+* Integrated Driver Assignment service with experimental Deep-Learning platform
+
+### Last Mile Simulations
+
+* Lead team of three to build experimental simulations platform using Native AWS Services.
+  * Orchestrated execution using Elastic Container Service, Step Functions, Lambda, and Batch.
+  * Configured connectivity to microservices using VPC Networking and IAM policies.
+  * Stored and modified architecture, configuration, and metadata using CloudFormation, VPC Networking, and S3.
+* Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000 plans in 2021.
+* Designed organization-wide guidelines to allow production services to run within simulations.
+* Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
 
 ## Education
 
@@ -48,6 +52,19 @@ Associates of Arts (Incomplete)
 `March 2012 - November 2012`
 
 ## Past Experience
+
+__Confluent, Inc.__
+
+*Software Engineer*
+`August 2019 - March 2020`
+
+* Modernized test infrastructure to more accurately represent production
+    environments using AWS and docker.
+* Reduced system test execution time by 30% by running tests in parallel rather
+    than sequentially.
+* Updated automated management of third-party utilities, including JDK, MySQL,
+    and Apache Hadoop ecosystem to more reliably integrate all deployment
+    scenarios.
 
 __Youtube, San Bruno, CA__
 

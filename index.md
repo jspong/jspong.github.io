@@ -1,10 +1,8 @@
-
-<div>
-    <a href="/resume">Resume</a>
-</div>
-
 <div>
   <ul>
+    <li>
+        <a href="/resume">Resume</a>
+    </li>
   {% for post in site.posts %}
       <li>
         <span><a href="{{ post.url }}">{{ post.title }}</a></span>

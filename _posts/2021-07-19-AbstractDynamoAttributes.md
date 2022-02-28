@@ -3,8 +3,6 @@ layout: post
 title: "Storing abstract and generic attributes in DynamoDB"
 ---
 
-# Intro
-
 [Amazon DynamoDB](https://aws.amazon.com/dynamodb) is a great, simple [document-oriented database](https://en.wikipedia.org/wiki/Document-oriented_database).
 For those coming from traditional [Relational Databases](https://en.wikipedia.org/wiki/Relational_database), this switch can be jarring. 
 Storing [normalized data](https://en.wikipedia.org/wiki/Database_normalization) has become second-nature, and the idea of dumping a whole object into a field can feel very uncomfortable.

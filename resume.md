@@ -9,10 +9,9 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 # John Spong
 
-Senior Software Engineer
+Software Engineer
 
-Designing and implementing complex systems using simple pieces,
-and mentoring junior developers to do the same.
+Building complex systems using simple pieces, and mentoring junior developers to do the same.
 
 ## Contact Info
 
@@ -23,16 +22,21 @@ and mentoring junior developers to do the same.
 ## Current Position
 
 __Amazon.com, Inc.___
+*Software Engineer*
 `June 2020 - Present`
 
-### Last Mile Cost Estimation
+### Last Mile Route Estimation
 
-* Integrated Driver Assignment service with experimental Deep-Learning platform
+* Integrated Deep Learning Platform for route-level time estimation with delivery planner.
+  * Worked with team to scale system to handle bursts of millions of estimates per minute.
+* Designed and implemented Data Pipeline to perform ETL tasks for model training and feature extraction for realtime inference.
+* Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
+* Led cross-functional initiatives to implement and evangelize modern DevOps and MLOps practices.
 
 ### Last Mile Simulations
 
-* Lead team of three to build experimental simulations platform using Native AWS Services.
-  * Orchestrated execution using Elastic Container Service, Step Functions, Lambda, and Batch.
+* Led team of three to build experimental simulations platform using Native AWS Services:
+  * Orchestrated execution using Elastic Container Service, Step Functions, Lambda, Simple Queue Service (SQS), and Batch.
   * Configured connectivity to microservices using VPC Networking and IAM policies.
   * Stored and modified architecture, configuration, and metadata using CloudFormation, VPC Networking, and S3.
 * Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000 plans in 2021.

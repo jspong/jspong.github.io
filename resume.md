@@ -21,7 +21,7 @@ Building complex systems using simple pieces, and mentoring junior developers to
 
 ## Current Position
 
-__Amazon.com, Inc.___
+__Amazon.com, Inc.__
 *Software Engineer*
 `June 2020 - Present`
 

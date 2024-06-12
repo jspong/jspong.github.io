@@ -9,9 +9,9 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 # John Spong
 
-Software Engineer
+## Software Engineer
 
-Building complex systems using simple pieces, and mentoring junior developers to do the same.
+Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same.
 
 ## Contact Info
 
@@ -19,29 +19,40 @@ Building complex systems using simple pieces, and mentoring junior developers to
 * Email:       jspong@gmail.com
 * Github:      [github/jspong](https://github.com/jspong)
 
-## Current Position
 
+## Professional Skills and Interests
+
+* Software Architecture - Design Patterns, Implementation Patterns, Distributed Systems, API Design, Iterative Processes
+* Languages - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
+* Technologies - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration
+
+## Current Position
 __Amazon.com, Inc.__
 
 *Software Engineer*
 `June 2020 - Present`
 
+Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver
+the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar,
+and Reasonable Delivery Routes.
+
 ### Last Mile Route Estimation
 
 * Integrated Deep Learning Platform for route-level time estimation with delivery planner.
-  * Worked with team to scale system to handle bursts of millions of estimates per minute.
-* Designed and implemented Data Pipeline to perform ETL tasks for model training and feature extraction for realtime inference.
-* Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
+  * Designed integration, and led team to scale system to handle bursts of millions of estimates per minute.
 * Led cross-functional initiatives to implement and evangelize modern DevOps and MLOps practices.
+  * Created event-driven Model Registry Service to streamline operations and facilitate communication between Engineering and Data Science Teams.
+  * Designed and implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for model training and feature extraction for realtime inference.
+  * Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
 
 ### Last Mile Simulations
 
-* Led team of three to build experimental simulations platform using Native AWS Services:
-  * Orchestrated execution using Elastic Container Service, Step Functions, Lambda, Simple Queue Service (SQS), and Batch.
+* Led team of three to build Simulations Platform using Native AWS Services
+  * Orchestrated execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
   * Configured connectivity to microservices using VPC Networking and IAM policies.
   * Stored and modified architecture, configuration, and metadata using CloudFormation, VPC Networking, and S3.
 * Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000 plans in 2021.
-* Designed organization-wide guidelines to allow production services to run within simulations.
+* Designed organization-wide development guidelines to allow production services to run within simulations.
 * Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
 
 ## Education
@@ -50,11 +61,6 @@ __University of Illinois, Urbana-Champaign__
 
 Bachelor of Science, Computer Science
 `September 2003 - May 2007`
-
-__Culinary Institute of America, St Helena, CA__
-
-Associates of Arts (Incomplete)
-`March 2012 - November 2012`
 
 ## Past Experience
 
@@ -76,55 +82,46 @@ __Youtube, San Bruno, CA__
 *Software Engineer*
 `August 2014 - July 2019`
 
+Collaborated with development teams throughout the YouTube Organization to identify
+and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives
+to improve productivity throughout the company.
+
+* Led large, cross-team code cleanups on live CI/CD Environment with zero production issues.
+    * Followed mature DevOps practices to ensure all code was thoroughly reviewed and tested before/during
+      the release process.
+    * Refactored YouTube authentication workflow to unify multiple credentials
+      into a single abstraction.
+* Interviewed candidates and mentored new engineers on the team.
+* Designed service to delegate and track individual tasks to domain experts.
+* Led feasibility study for python static analysis on YouTube code base, focusing
+  on bug detection, in collaboration with Google language teams and
+  third-party vendors.
 * Combined static analysis tools with dynamic monitoring to create and
   analyze graph of live YouTube control flow within and between services.
-* Led cross-functional efforts to perform large code cleanups, and
-* designed service to delegate and track individual tasks to domain experts.
-* Created system for code health metrics analysis, including dead code,
-  team ownership, and presubmit test performance.
-* Refactored YouTube authentication workflow to unify multiple credentials
-  into a single abstraction.
-* Researched feasibility of using static analysis on python to perform type
-  inference an bug detection, in collaboration with language teams and
-  third-party vendors.
-* Streamline automated testing and simplify building running services
+* Streamlined automated testing and simplified building running services
   and mobile (iOS and Android) apps.
-* Interviewed candidates and mentored new engineers on the team.
 
 __Clustrix, San Francisco, CA__
 
 *Software Engineer in Test*
 `January 2013 - July 2014`
 
-* Wrote and automated test plans for XML Functions, SQL Triggers, and
-  distributed disaster recovery and consistency.
-* Streamlined team processes by modernizing the test automation codebase,
-  by refactoring, unit tests, educational initiatives, and code reviews.
-* Increased team productivity by 17% by removing the need for a full-time
-  revolving test reviewer position and replacing it with individual ownership
-  and a new test reporting system.
-* Found and diagnosed errors in distributed database, using SQL,
-    developer interrupts, and external events to reproduce issues with planner,
-    replay queues, and Paxos-driven node management
+Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. 
+Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Causes. 
 
-__Vast.com, San Francisco, CA__
-
-*Test Automation Consultant*
-`August 2011 - December 2011`
-
-* Guided team of engineers through object-oriented refactor of client- and 
-  server-side Javascript code using RequireJs and dependency injection.
+* Led testing and verification of XML Functions, SQL Triggers, and
+  distributed disaster recovery and consistency, from Design through Customer Support.
+* Optimized Team Processes by Modernizing the Test Automation codebase,
+  Refactoring Code and Unit Tests, organizing Educational Initiatives,
+  and implementing a standard Code Review Policy.
+    * Increased Team Productivity by 17% by removing the need for a full-time
+      revolving test reviewer position and replacing it with Individual Ownership
+      and a new Test Reporting System.
+* Identified and diagnosed errors in distributed ACID database using SQL,
+  Internal Interrupts, and external Client Automation to reproduce issues with Planner,
+  Replay Queues for Disaster Recovery, and Paxos-driven node management.
 
 __Eureka Restaurant and Lounge, San Francisco, CA__
-
-*Line Cook*
-`August 2010 - January 2012`
-
-* Assisted in daily prep of ingredients for dinner service.
-* Managed _Garde Manger_ and _Sautee_ Stations.
-* Interviewed and trained new cooks in food preparation and service.
-
-__Google, Inc., Mountain View, CA__
 
 *Software Engineer in Test*
 `January 2010 - August 2010`
@@ -142,13 +139,8 @@ __Riverbed Technology, San Francisco, CA__
 `August 2007 - December 2009`
 
 * Led a team of six engineers in engineering efforts, coordinating
-  individual contributions into a cohesive and unified test system.
-* Designed and implemented automated test framework for Windows client GUI,
-  HTTP and SSL optimization, and Web Interface.
-* Wrote bridging libraries to tie together `Perl`, `Python`, and `C#`
-  frameworks to allow for seamless, scalable, and reusable cross-product
-  tests.
+  individual contributions into a cohesive and Unified Test System.
 * Wrote and optimized test result analytic tools using MySQL database, including
-    data-modeling, index optimization, and complex SQL queries.
+    Data Modeling, Index Optimization, and complex SQL Queries.
 
 

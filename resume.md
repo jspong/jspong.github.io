@@ -27,10 +27,11 @@ Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to
 * **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration
 
 ## Current Position
-__Amazon.com, Inc.__
+
 
 `June 2020 - Present`
 *Software Engineer*
+__Amazon.com, Inc.__
 
 Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver
 the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar,
@@ -49,9 +50,10 @@ and Reasonable Delivery Routes.
 
 * Led team of three to build Simulations Platform using Native AWS Services
   * Orchestrated execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
-  * Configured connectivity to microservices using VPC Networking and IAM policies.
-  * Stored and modified architecture, configuration, and metadata using CloudFormation, VPC Networking, and S3.
-* Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000 plans in 2021.
+  * Configured connectivity to microservices using VPC Networking, Dynamic Client/Server Configuration, and IAM policies.
+  * Built systems for Configuring Architecture, Configuration, and Metadata using Java, CloudFormation, VPC Networking, and S3.
+
+* Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000, plans in 2021.
 * Designed organization-wide development guidelines to allow production services to run within simulations.
 * Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
 

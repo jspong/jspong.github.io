@@ -34,7 +34,7 @@ __Amazon.com, Inc.__
 
 _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar, and Reasonable Delivery Routes._
 
-* **Last Mile Route Estimation**
+*Last Mile Route Estimation*
 
   * Integrated Deep Learning Platform for route-level time estimation with delivery planner.
     * Designed integration, and led team to scale system to handle bursts of millions of estimates per minute.
@@ -43,7 +43,7 @@ _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to 
     * Designed and implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for model training and feature extraction for realtime inference.
     * Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
 
-* **Last Mile Simulations**
+*Last Mile Simulations*
 
   * Led team of three to build Simulations Platform using Native AWS Services
     * Orchestrated execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.

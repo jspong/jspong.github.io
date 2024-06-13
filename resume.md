@@ -11,7 +11,7 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 ## Software Engineer
 
-_Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same._
+### Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same.
 
 ## Contact Info
 

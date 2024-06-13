@@ -30,8 +30,8 @@ Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to
 
 
 `June 2020 - Present`
-*Software Engineer*
 __Amazon.com, Inc.__
+*Software Engineer*
 
 Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver
 the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar,

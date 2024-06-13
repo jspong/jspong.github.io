@@ -11,7 +11,7 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 ## Software Engineer
 
-> Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same.
+Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same.
 
 ## Contact Info
 
@@ -26,13 +26,8 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 * **Languages** - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
 * **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration
 
-## Education
-
-`September 2003 - May 2007`
-__University of Illinois, Urbana-Champaign__
-Bachelor of Science, Computer Science
-
 ## Current Position
+
 
 `June 2020 - Present`
 __Amazon.com, Inc.__
@@ -62,6 +57,11 @@ and Reasonable Delivery Routes.
 * Designed organization-wide development guidelines to allow production services to run within simulations.
 * Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
 
+## Education
+
+`September 2003 - May 2007`
+__University of Illinois, Urbana-Champaign__
+Bachelor of Science, Computer Science
 
 ## Past Experience
 

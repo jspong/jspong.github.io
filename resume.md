@@ -29,8 +29,8 @@ Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to
 ## Current Position
 __Amazon.com, Inc.__
 
-*Software Engineer*
 `June 2020 - Present`
+*Software Engineer*
 
 Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver
 the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar,
@@ -59,15 +59,15 @@ and Reasonable Delivery Routes.
 
 __University of Illinois, Urbana-Champaign__
 
-Bachelor of Science, Computer Science
 `September 2003 - May 2007`
+Bachelor of Science, Computer Science
 
 ## Past Experience
 
 __Confluent, Inc.__
 
-*Software Engineer*
 `August 2019 - March 2020`
+*Software Engineer*
 
 * Modernized test infrastructure to more accurately represent production
     environments using AWS and docker.
@@ -79,8 +79,8 @@ __Confluent, Inc.__
 
 __Youtube, San Bruno, CA__
 
-*Software Engineer*
 `August 2014 - July 2019`
+*Software Engineer*
 
 Collaborated with development teams throughout the YouTube Organization to identify
 and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives
@@ -103,8 +103,8 @@ to improve productivity throughout the company.
 
 __Clustrix, San Francisco, CA__
 
-*Software Engineer in Test*
 `January 2013 - July 2014`
+*Software Engineer in Test*
 
 Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. 
 Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Causes. 
@@ -123,8 +123,8 @@ Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Cau
 
 __Google, Inc.__
 
-*Software Engineer in Test*
 `January 2010 - August 2010`
+*Software Engineer in Test*
 
 * Wrote, maintained, and executed integration tests for the Android
   Marketplace using Java and Selenium
@@ -135,8 +135,8 @@ __Google, Inc.__
 
 __Riverbed Technology, San Francisco, CA__
 
-*Quality Assurance Engineer*
 `August 2007 - December 2009`
+*Quality Assurance Engineer*
 
 * Led a team of six engineers in engineering efforts, coordinating
   individual contributions into a cohesive and Unified Test System.

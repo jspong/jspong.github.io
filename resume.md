@@ -11,13 +11,13 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 ## Software Engineer
 
-Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same.
+_Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to Do the Same._
 
 ## Contact Info
 
-* Phone:       628-363-0108
-* Email:       jspong@gmail.com
-* Github:      [github/jspong](https://github.com/jspong)
+* **Email**:       [jspong@gmail.com](mailto:jspong@gmail.com)
+* **Phone**:       628-363-0108
+* **Github**:      [github/jspong](https://github.com/jspong)
 
 
 ## Professional Skills and Interests
@@ -28,14 +28,11 @@ Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to
 
 ## Current Position
 
-
 `June 2020 - Present`
 __Amazon.com, Inc.__
 *Software Engineer*
 
-Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver
-the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar,
-and Reasonable Delivery Routes.
+_Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar, and Reasonable Delivery Routes._
 
 ### Last Mile Route Estimation
 
@@ -69,6 +66,8 @@ Bachelor of Science, Computer Science
 __Confluent, Inc.__
 *Software Engineer*
 
+_Developed and Modernized CI/CD Test and Deployment Infrastructure for Apache Kafka and Enterprise Extensions_
+
 * Modernized test infrastructure to more accurately represent production
     environments using AWS and docker.
 * Reduced system test execution time by 30% by running tests in parallel rather
@@ -81,9 +80,7 @@ __Confluent, Inc.__
 __Youtube, San Bruno, CA__
 *Software Engineer*
 
-Collaborated with development teams throughout the YouTube Organization to identify
-and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives
-to improve productivity throughout the company.
+_Collaborated with development teams throughout the YouTube Organization to identify and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives to improve productivity throughout the company._
 
 * Led large, cross-team code cleanups on live CI/CD Environment with zero production issues.
     * Followed mature DevOps practices to ensure all code was thoroughly reviewed and tested before/during
@@ -104,8 +101,7 @@ to improve productivity throughout the company.
 __Clustrix, San Francisco, CA__
 *Software Engineer in Test*
 
-Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. 
-Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Causes. 
+_Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Causes._
 
 * Led testing and verification of XML Functions, SQL Triggers, and
   distributed disaster recovery and consistency, from Design through Customer Support.
@@ -123,6 +119,8 @@ Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Cau
 __Google, Inc.__
 *Software Engineer in Test*
 
+_Developed first scalable and reusable Integration Test Infrastructure for the Android Marketplace_
+
 * Wrote, maintained, and executed integration tests for the Android
   Marketplace using Java and Selenium
 * Designed API for integration tests and refactored it into existing
@@ -134,9 +132,10 @@ __Google, Inc.__
 __Riverbed Technology, San Francisco, CA__
 *Quality Assurance Engineer*
 
+_Worked with Product and Engineering Teams to Manage and Automate Integration and Regression Tests for WAN Optimization_
+
 * Led a team of six engineers in engineering efforts, coordinating
   individual contributions into a cohesive and Unified Test System.
-* Wrote and optimized test result analytic tools using MySQL database, including
-    Data Modeling, Index Optimization, and complex SQL Queries.
-
+* Wrote client automation, server deployment, and network configuration in `bash`, `C#`, `perl`, `python` to allow reusable test logic for Windows and Linux clients.
+* Wrote and optimized test result analytic tools using MySQL database, including Data Modeling, Index Optimization, and complex SQL Queries.
 

@@ -22,9 +22,9 @@ Building Complex Systems using Simple Pieces, and Mentoring Junior Developers to
 
 ## Professional Skills and Interests
 
-* Software Architecture - Design Patterns, Implementation Patterns, Distributed Systems, API Design, Iterative Processes
-* Languages - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
-* Technologies - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration
+* **Software Architecture** - Design Patterns, Implementation Patterns, Distributed Systems, API Design, Iterative Processes
+* **Languages** - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
+* **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration
 
 ## Current Position
 __Amazon.com, Inc.__
@@ -121,7 +121,7 @@ Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Cau
   Internal Interrupts, and external Client Automation to reproduce issues with Planner,
   Replay Queues for Disaster Recovery, and Paxos-driven node management.
 
-__Eureka Restaurant and Lounge, San Francisco, CA__
+__Google, Inc.__
 
 *Software Engineer in Test*
 `January 2010 - August 2010`

@@ -103,15 +103,15 @@ _Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Data
 * Identified and diagnosed errors in distributed ACID database using SQL,
   Internal Interrupts, and external Client Automation to reproduce issues with Planner,
   Replay Queues for Disaster Recovery, and Paxos-driven node management.
-* Interviewed candidates and mentored new engineers on the team.
+* Interviewed Candidates and Mentored New Engineers on the team.
 
 `January 2010 - August 2010`
 __Google, Inc.__
 *Software Engineer in Test*
 
-_Developed first scalable and reusable Integration Test Infrastructure for the Android Marketplace._
+_Developed first Scalable and Reusable Integration Test Infrastructure for the Android Marketplace._
 
-* Wrote, maintained, and executed integration tests for the Android
+* Wrote, Maintained, and executed Integration Tests for the Android
   Marketplace using Java and Selenium
 * Designed API for Integration Tests and Refactored it into Existing
   Legacy Framework to allow all Developers to Create More Reliable and

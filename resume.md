@@ -34,24 +34,22 @@ __Amazon.com, Inc.__
 
 _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar, and Reasonable Delivery Routes._
 
-*Last Mile Route Estimation*
+- *Last Mile Route Estimation*
+  - Integrated Deep Learning Platform for route-level time estimation with delivery planner.
+    - Designed integration, and led team to scale system to handle bursts of millions of estimates per minute.
+  - Led cross-functional initiatives to implement and evangelize modern DevOps and MLOps practices.
+    - Created event-driven Model Registry Service to streamline operations and facilitate communication between Engineering and Data Science Teams.
+    - Designed and implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for model training and feature extraction for realtime inference.
+    - Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
 
-* Integrated Deep Learning Platform for route-level time estimation with delivery planner.
-  * Designed integration, and led team to scale system to handle bursts of millions of estimates per minute.
-* Led cross-functional initiatives to implement and evangelize modern DevOps and MLOps practices.
-  * Created event-driven Model Registry Service to streamline operations and facilitate communication between Engineering and Data Science Teams.
-  * Designed and implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for model training and feature extraction for realtime inference.
-  * Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
-
-*Last Mile Simulations*
-
-* Led team of three to build Simulations Platform using Native AWS Services
-  * Orchestrated execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
-  * Configured connectivity to microservices using VPC Networking, Dynamic Client/Server Configuration, and IAM policies.
-  * Built systems for Configuring Architecture, Configuration, and Metadata using Java, CloudFormation, VPC Networking, and S3.
-* Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000, plans in 2021.
-* Designed organization-wide development guidelines to allow production services to run within simulations.
-* Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
+- *Last Mile Simulations*
+  - Led team of three to build Simulations Platform using Native AWS Services
+    - Orchestrated execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
+    - Configured connectivity to microservices using VPC Networking, Dynamic Client/Server Configuration, and IAM policies.
+    - Built systems for Configuring Architecture, Configuration, and Metadata using Java, CloudFormation, VPC Networking, and S3.
+  - Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000, plans in 2021.
+  - Designed organization-wide development guidelines to allow production services to run within simulations.
+  - Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
 
 ## Education
 

@@ -59,16 +59,14 @@ and Reasonable Delivery Routes.
 
 ## Education
 
-__University of Illinois, Urbana-Champaign__
-
 `September 2003 - May 2007`
+__University of Illinois, Urbana-Champaign__
 Bachelor of Science, Computer Science
 
 ## Past Experience
 
-__Confluent, Inc.__
-
 `August 2019 - March 2020`
+__Confluent, Inc.__
 *Software Engineer*
 
 * Modernized test infrastructure to more accurately represent production
@@ -79,9 +77,8 @@ __Confluent, Inc.__
     and Apache Hadoop ecosystem to more reliably integrate all deployment
     scenarios.
 
-__Youtube, San Bruno, CA__
-
 `August 2014 - July 2019`
+__Youtube, San Bruno, CA__
 *Software Engineer*
 
 Collaborated with development teams throughout the YouTube Organization to identify
@@ -103,9 +100,8 @@ to improve productivity throughout the company.
 * Streamlined automated testing and simplified building running services
   and mobile (iOS and Android) apps.
 
-__Clustrix, San Francisco, CA__
-
 `January 2013 - July 2014`
+__Clustrix, San Francisco, CA__
 *Software Engineer in Test*
 
 Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. 
@@ -123,9 +119,8 @@ Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Cau
   Internal Interrupts, and external Client Automation to reproduce issues with Planner,
   Replay Queues for Disaster Recovery, and Paxos-driven node management.
 
-__Google, Inc.__
-
 `January 2010 - August 2010`
+__Google, Inc.__
 *Software Engineer in Test*
 
 * Wrote, maintained, and executed integration tests for the Android
@@ -135,9 +130,8 @@ __Google, Inc.__
   scalable tests.
 * Collaborated with developers to encourage teamwork on test development.
 
-__Riverbed Technology, San Francisco, CA__
-
 `August 2007 - December 2009`
+__Riverbed Technology, San Francisco, CA__
 *Quality Assurance Engineer*
 
 * Led a team of six engineers in engineering efforts, coordinating

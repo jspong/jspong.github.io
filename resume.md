@@ -24,7 +24,7 @@ _Building Complex Systems using Simple Pieces, and Mentoring Junior Developers t
 
 * **Software Architecture** - Design Patterns, Implementation Patterns, Distributed Systems, API Design, Iterative Processes
 * **Languages** - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
-* **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration
+* **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration, Apache Airflow, Apache Hadoop.
 
 ## Current Position
 
@@ -35,21 +35,21 @@ __Amazon.com, Inc.__
 _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar, and Reasonable Delivery Routes._
 
 - *Last Mile Route Estimation*
-  - Integrated Deep Learning Platform for route-level time estimation with delivery planner.
-    - Designed integration, and led team to scale system to handle bursts of millions of estimates per minute.
-  - Led cross-functional initiatives to implement and evangelize modern DevOps and MLOps practices.
-    - Created event-driven Model Registry Service to streamline operations and facilitate communication between Engineering and Data Science Teams.
-    - Designed and implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for model training and feature extraction for realtime inference.
-    - Designed, implemented, and rearchitected systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
+  - Integrated Deep Learning Platform for Route-Level Time Estimation with Delivery Planner.
+    - Designed integration, and led team to Scale System to handle Bursts of Millions of Estimates per Minute.
+  - Led Cross-Functional Initiatives to Implement and Evangelize Modern DevOps and MLOps practices.
+    - Created Event-Driven Model Registry Service to Streamline Operations and Facilitate Communication between Engineering and Data Science Teams.
+    - Designed and Implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for Model Training and Feature Extraction for Realtime Inference.
+    - Designed, Implemented, and Rearchitected Systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
 
 - *Last Mile Simulations*
   - Led team of three to build Simulations Platform using Native AWS Services
-    - Orchestrated execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
-    - Configured connectivity to microservices using VPC Networking, Dynamic Client/Server Configuration, and IAM policies.
-    - Built systems for Configuring Architecture, Configuration, and Metadata using Java, CloudFormation, VPC Networking, and S3.
-  - Supported internal customers, allowing users to run 1,000,000 simulations, covering 15,000,000, plans in 2021.
-  - Designed organization-wide development guidelines to allow production services to run within simulations.
-  - Migrated non-AWS systems to run in Docker containers on Elastic Container Service.
+    - Orchestrated System Execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
+    - Configured Connectivity to Microservices using VPC Networking, Dynamic Client/Server Configuration, and IAM policies.
+    - Built Systems for Configuring Architecture, Configuration, and Metadata using Java, CloudFormation, VPC Networking, and S3.
+  - Supported Internal Customers, allowing Users to run 1,000,000 Simulations, covering 15,000,000 Delivery Plans, in 2021.
+  - Designed Organization-Wide Development Guidelines to allow Production Services to Run Within the Simulations Environment.
+  - Migrated non-AWS systems to run in `docker` Containers on Elastic Container Service.
 
 ## Education
 
@@ -65,34 +65,26 @@ __Confluent, Inc.__
 
 _Developed and Modernized CI/CD Test and Deployment Infrastructure for Apache Kafka and Enterprise Extensions_
 
-* Modernized test infrastructure to more accurately represent production
-    environments using AWS and docker.
+* Modernized Test Infrastructure to more accurately represent Production Environments using AWS and `docker`.
 * Reduced system test execution time by 30% by running tests in parallel rather
     than sequentially.
-* Updated automated management of third-party utilities, including JDK, MySQL,
-    and Apache Hadoop ecosystem to more reliably integrate all deployment
-    scenarios.
+* Updated Automated Management of Third-Party Utilities, including JDK, MySQL, and Apache Hadoop Ecosystem to More Reliably Integrate all Deployment Scenarios.
 
 `August 2014 - July 2019`
 __Youtube, San Bruno, CA__
 *Software Engineer*
 
-_Collaborated with development teams throughout the YouTube Organization to identify and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives to improve productivity throughout the company._
+_Identified and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives to Improve Engineering Productivity Across the Company. Collaborated with Multiple Development Teams, Product and Project Management, Third-party Contractors, Management, and Support._
 
-* Led large, cross-team code cleanups on live CI/CD Environment with zero production issues.
-    * Followed mature DevOps practices to ensure all code was thoroughly reviewed and tested before/during
-      the release process.
-    * Refactored YouTube authentication workflow to unify multiple credentials
-      into a single abstraction.
-* Interviewed candidates and mentored new engineers on the team.
-* Designed service to delegate and track individual tasks to domain experts.
-* Led feasibility study for python static analysis on YouTube code base, focusing
-  on bug detection, in collaboration with Google language teams and
-  third-party vendors.
-* Combined static analysis tools with dynamic monitoring to create and
-  analyze graph of live YouTube control flow within and between services.
-* Streamlined automated testing and simplified building running services
-  and mobile (iOS and Android) apps.
+* Led Large, Cross-Team Code Cleanups on Live CI/CD Environment with Zero Production Issues.
+    * Followed mature DevOps Practices to ensure All Code was Thoroughly Reviewed and Tested before/during
+      the Release Process.
+    * Refactored YouTube Authentication Workflow to Unify Multiple Credentials
+      into a Single Abstraction.
+* Led Integration of Protocol-Level Observability into entire flow through Client, Middleware, and Backend Services, balancing Privacy Concerns with Data Usefulness.
+* Led Feasibility Study for `python` Static Analysis on YouTube Code Base, focusing on Bug Detection, in Collaboration with Google Language Teams and Third-Party Vendors.
+* Streamlined Automated Testing and Simplified Building Running Services and Mobile (iOS and Android) Apps.
+* Interviewed Candidates and Mentored New Engineers on the Team.
 
 `January 2013 - July 2014`
 __Clustrix, San Francisco, CA__
@@ -100,8 +92,8 @@ __Clustrix, San Francisco, CA__
 
 _Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Causes._
 
-* Led testing and verification of XML Functions, SQL Triggers, and
-  distributed disaster recovery and consistency, from Design through Customer Support.
+* Led Testing and Verification of XML Functions, SQL Triggers, and
+  Distributed Disaster Recovery and Consistency, from Design through Customer Support.
 * Optimized Team Processes by Modernizing the Test Automation codebase,
   Refactoring Code and Unit Tests, organizing Educational Initiatives,
   and implementing a standard Code Review Policy.
@@ -111,28 +103,29 @@ _Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Data
 * Identified and diagnosed errors in distributed ACID database using SQL,
   Internal Interrupts, and external Client Automation to reproduce issues with Planner,
   Replay Queues for Disaster Recovery, and Paxos-driven node management.
+* Interviewed candidates and mentored new engineers on the team.
 
 `January 2010 - August 2010`
 __Google, Inc.__
 *Software Engineer in Test*
 
-_Developed first scalable and reusable Integration Test Infrastructure for the Android Marketplace_
+_Developed first scalable and reusable Integration Test Infrastructure for the Android Marketplace._
 
 * Wrote, maintained, and executed integration tests for the Android
   Marketplace using Java and Selenium
-* Designed API for integration tests and refactored it into existing
-  legacy framework to allow all developers to create more reliable and
-  scalable tests.
-* Collaborated with developers to encourage teamwork on test development.
+* Designed API for Integration Tests and Refactored it into Existing
+  Legacy Framework to allow all Developers to Create More Reliable and
+  Scalable Tests.
+* Collaborated with Developers to encourage Teamwork on Test Development.
 
 `August 2007 - December 2009`
 __Riverbed Technology, San Francisco, CA__
 *Quality Assurance Engineer*
 
-_Worked with Product and Engineering Teams to Manage and Automate Integration and Regression Tests for WAN Optimization_
+_Automated Integration and Regression Tests for WAN Optimization, Working with Product and Engineering to Ensure Quality from Conception through Client Support_
 
-* Led a team of six engineers in engineering efforts, coordinating
-  individual contributions into a cohesive and Unified Test System.
-* Wrote client automation, server deployment, and network configuration in `bash`, `C#`, `perl`, `python` to allow reusable test logic for Windows and Linux clients.
-* Wrote and optimized test result analytic tools using MySQL database, including Data Modeling, Index Optimization, and complex SQL Queries.
+* Led a Team of Six Engineers in Engineering Efforts, Coordinating Individual Contributions into a Cohesive and Unified Test System.
+* Wrote Client Automation, Server Deployment, and Network Configuration in `bash`, `C#`, `perl`, `python` to allow Reusable Test Logic for Windows and Linux clients.
+* Wrote and Optimized Test Result Analytic Tools using MySQL database, requiring Data Modeling, Index Optimization, and complex SQL Queries.
+* Interviewed Candidates and Mentored New Engineers on the Team.
 

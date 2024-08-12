@@ -26,9 +26,15 @@ _Building Complex Systems using Simple Pieces, and Mentoring Junior Developers t
 * **Languages** - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
 * **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration, Apache Airflow, Apache Hadoop.
 
-## Current Position
+## Education
 
-`June 2020 - Present`
+`September 2003 - May 2007`
+__University of Illinois, Urbana-Champaign__
+Bachelor of Science, Computer Science
+
+## Past Experience
+
+`June 2020 - June 2024`
 __Amazon.com, Inc.__
 *Software Engineer*
 
@@ -50,14 +56,6 @@ _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to 
   - Supported Internal Customers, allowing Users to run 1,000,000 Simulations, covering 15,000,000 Delivery Plans, in 2021.
   - Designed Organization-Wide Development Guidelines to allow Production Services to Run Within the Simulations Environment.
   - Migrated non-AWS systems to run in `docker` Containers on Elastic Container Service.
-
-## Education
-
-`September 2003 - May 2007`
-__University of Illinois, Urbana-Champaign__
-Bachelor of Science, Computer Science
-
-## Past Experience
 
 `August 2019 - March 2020`
 __Confluent, Inc.__

@@ -9,10 +9,10 @@ Using the wonderful layout from https://github.com/elipapa/markdown-cv/
 
 # John Spong
 
-
 ## Contact 
 
-|: **Email**: [jspong@gmail.com](mailto:jspong@gmail.com) | **Phone**: 628-363-0108 :|
+* **Email**: [jspong@gmail.com](mailto:jspong@gmail.com) 
+* **Phone**: 628-363-0108 
 
 ## Software Engineer
 

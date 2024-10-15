@@ -22,9 +22,11 @@ _Building Complex Systems using Simple Pieces, and Mentoring Junior Developers t
 
 ## Professional Skills and Interests
 
-* **Software Architecture** - Design Patterns, Implementation Patterns, Distributed Systems, API Design, Iterative Processes
+* **Software Architecture** - Design Patterns, Implementation Patterns, Distributed Systems, API Design, Iterative Processes.
+* **Machine Learning** - Data Science and Data Mining Principles, Deep Learning Models with PyTorch, and Data Pipeline Engineering.
 * **Languages** - `python`, `Java`, `TypeScript`, `Javascript`, `C#`, `SQL`, `golang`, `ruby`, `C++`, `perl`, `C`, `HTML`
-* **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration, Apache Airflow, Apache Hadoop.
+* **Technologies** - AWS Cloud Development and Administration, Linux System Administration, TCP/IP Networking, `node.js`, Full LAMP Stack Administration, Apache Airflow, Apache Kafka, Apache Spark.
+* **Communication Skills** - Empathetic and Solution-Oriented, Understanding that All Individuals have Personal Priorities, Life-Experiences, and Unique Strengths.
 
 ## Education
 
@@ -42,14 +44,16 @@ _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to 
 
 - *Last Mile Route Estimation*
   - Integrated Deep Learning Platform for Route-Level Time Estimation with Delivery Planner.
-    - Designed integration, and led team to Scale System to handle Bursts of Millions of Estimates per Minute.
+    - Designed and Implemented Inference Client for Real-Time Cost Planning.
+    - Analyzed Performance Bottlenecks in Client and Model, Scaling to Bursts of Millions of Requests per Minute.
   - Led Cross-Functional Initiatives to Implement and Evangelize Modern DevOps and MLOps practices.
     - Created Event-Driven Model Registry Service to Streamline Operations and Facilitate Communication between Engineering and Data Science Teams.
     - Designed and Implemented Data Pipeline to perform Extract-Transform-Load (ETL) tasks for Model Training and Feature Extraction for Realtime Inference.
     - Designed, Implemented, and Rearchitected Systems using Java, Typescript, Python, PyTorch, Apache Spark, AWS SageMaker, AWS Glue, and AWS EC2 infrastructure.
+  - Organized Efficient processes for team, including standardized Issue Tracking, Agile Workflow using Scrum and Kanban principles.
 
 - *Last Mile Simulations*
-  - Led team of three to build Simulations Platform using Native AWS Services
+  - Led team of three to build Simulations Platform using Native AWS Services.
     - Orchestrated System Execution using Elastic Container Service (ECS), AWS Step Functions, AWS Lambda, AWS Simple Queue Service (SQS), and AWS Batch.
     - Configured Connectivity to Microservices using VPC Networking, Dynamic Client/Server Configuration, and IAM policies.
     - Built Systems for Configuring Architecture, Configuration, and Metadata using Java, CloudFormation, VPC Networking, and S3.
@@ -61,7 +65,7 @@ _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to 
 __Confluent, Inc.__
 *Software Engineer*
 
-_Developed and Modernized CI/CD Test and Deployment Infrastructure for Apache Kafka and Enterprise Extensions_
+_Developed and Modernized CI/CD Test and Deployment Infrastructure for Apache Kafka and Enterprise Extensions._
 
 * Modernized Test Infrastructure to more accurately represent Production Environments using AWS and `docker`.
 * Reduced system test execution time by 30% by running tests in parallel rather
@@ -109,8 +113,8 @@ __Google, Inc.__
 
 _Developed first Scalable and Reusable Integration Test Infrastructure for the Android Marketplace._
 
-* Wrote, Maintained, and executed Integration Tests for the Android
-  Marketplace using Java and Selenium
+* Wrote, Maintained, and Executed Integration Tests for the Android
+  Marketplace using Java and Selenium.
 * Designed API for Integration Tests and Refactored it into Existing
   Legacy Framework to allow all Developers to Create More Reliable and
   Scalable Tests.

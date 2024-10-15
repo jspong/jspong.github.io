@@ -30,15 +30,15 @@ _Building Complex Systems using Simple Pieces, and Mentoring Junior Developers t
 
 ## Education
 
-`September 2003 - May 2007`
 __University of Illinois, Urbana-Champaign__
 Bachelor of Science, Computer Science
+`September 2003 - May 2007`
 
 ## Past Experience
 
-`June 2020 - June 2024`
 __Amazon.com, Inc.__
 *Software Engineer*
+`June 2020 - June 2024`
 
 _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to Help Amazon Deliver the best experience for their Customers by supporting Delivery Drivers with Safe, Efficient, Familiar, and Reasonable Delivery Routes._
 
@@ -61,9 +61,9 @@ _Designed/Developed/Maintained Isolated Services and Cross-Team Integrations to 
   - Designed organization-wide Development Guidelines to allow production services to run within the Simulations Environment.
   - Migrated non-AWS systems to run in `docker` containers on Elastic Container Service.
 
-`August 2019 - March 2020`
 __Confluent, Inc.__
 *Software Engineer*
+`August 2019 - March 2020`
 
 _Developed and Modernized CI/CD Test and Deployment Infrastructure for Apache Kafka and Enterprise Extensions._
 
@@ -72,9 +72,9 @@ _Developed and Modernized CI/CD Test and Deployment Infrastructure for Apache Ka
     than sequentially.
 * Updated automated management of third-party utilities, including JDK, MySQL, and Apache Hadoop Ecosystem to more reliably integrate all deployment scenarios.
 
-`August 2014 - July 2019`
 __Youtube, San Bruno, CA__
 *Software Engineer*
+`August 2014 - July 2019`
 
 _Identified and mitigate shared Workflow gaps or hurdles, and led Force Multiplier Initiatives to Improve Engineering Productivity Across the Company. Collaborated with Multiple Development Teams, Product and Project Management, Third-party Contractors, Management, and Support._
 
@@ -88,9 +88,9 @@ _Identified and mitigate shared Workflow gaps or hurdles, and led Force Multipli
 * Streamlined automated testing and simplified building running services and mobile (iOS and Android) apps.
 * Interviewed candidates and mentored new engineers on the team.
 
-`January 2013 - July 2014`
 __Clustrix, San Francisco, CA__
 *Software Engineer in Test*
+`January 2013 - July 2014`
 
 _Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Database. Directly Supported Customer issues, Reproducing Failures and Diagnosing Root Causes._
 
@@ -107,9 +107,9 @@ _Wrote, Executed, and Automated Test Plans for Distributed MySQL-Compatible Data
   Replay Queues for Disaster Recovery, and Paxos-driven node management.
 * Interviewed candidates and mentored new engineers on the team.
 
-`January 2010 - August 2010`
 __Google, Inc.__
 *Software Engineer in Test*
+`January 2010 - August 2010`
 
 _Developed first Scalable and Reusable Integration Test Infrastructure for the Android Marketplace._
 
@@ -119,9 +119,9 @@ _Developed first Scalable and Reusable Integration Test Infrastructure for the A
   legacy framework to allow all developers to create more reliable and
   scalable tests.
 
-`August 2007 - December 2009`
 __Riverbed Technology, San Francisco, CA__
 *Quality Assurance Engineer*
+`August 2007 - December 2009`
 
 _Automated Integration and Regression Tests for WAN Optimization, Working with Product and Engineering to Ensure Quality from Conception through Client Support_
 

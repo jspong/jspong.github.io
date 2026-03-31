@@ -48,7 +48,23 @@ __University of Illinois, Urbana-Champaign__
 *Bachelor of Science, Computer Science*
 `September 2003 - May 2007`
 
+## Maven Machines
+**Senior Software Engineer*
+`December 2024 - Present`
 
+> Designed Event-Sourced Infrastructure Framework from the Ground Up
+
+- Built `node.js` framework for CQRS-compliant event-sourcing platform using Apache Kafka for event transport, RabbitMQ for Command + Query handling, DynamoDB for projection storage, and OpenSearch for automated search capabilities.
+- Mentored other developers in Event-Sourcing paradigm, guiding architecture of several feature development initiatives.
+
+> Wrote several Event-Sourced systems for customer-facing functionality
+
+- Built backend for Dock Management App, providing real-time event-driven tracking of tens of thousands of shipments per day
+- Extended existing shipment-oriented planning systems to allow general tasks, and implemented backend functionality for product catalog management, service request tracking, and point-of-sales.
+
+> Extended and simplified existing legacy systems
+
+- Implemented functionality in React frontend, leading to generalized design patterns to encourage simplicity, seperation of concerns, and increased data fidelity.
 
 ## Amazon, Inc.
 **Software Engineer**
